@@ -10,9 +10,9 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author dell
+ * @author Tunde Michael
  */
-@WebServlet(name = "SeoUrlServlet", urlPatterns = {"/product/*"})
+@WebServlet(name = "SeoUrlServlet", urlPatterns = {"/"})
 public class SeoUrlServlet extends HttpServlet {
 
     /**
